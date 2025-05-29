@@ -1,0 +1,58 @@
+🚀 What We’ll Build (MVP – Minimal Viable Product)
+👤 Users
+Take quizzes (no login for now—keep it simple)
+
+🧠 Quizzes
+Each quiz has:
+
+A title (e.g., “General Knowledge”)
+
+A list of questions
+
+❓ Questions
+Each question has:
+
+Text (e.g., “What’s the capital of France?”)
+
+Four options
+
+One correct answer
+
+🧾 User Flow:
+User picks a quiz
+
+App serves one question at a time
+
+After finishing, the user sees their score
+
+🛠️ Tech Stack
+
+Layer	Tools
+Backend	Java + Spring Boot
+DB	H2 (in-memory for dev, easy)
+Testing	Postman or Swagger
+(Optional later) Frontend	HTML/Thymeleaf or React
+**************************
+
+
+step-by-Step:
+Open your Spring Boot project folder in VS Code.
+
+Create a folder named .vscode if it doesn’t exist.
+
+Inside .vscode, create a file named settings.json.
+
+Add this (adjust the path if needed):
+
+json
+Copier
+Modifier
+{
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "C:\\Program Files\\Java\\jdk-21",
+      "default": true
+    }
+  ]
+}

@@ -1,17 +1,6 @@
 # 🧠 Quiz App – Minimal Viable Product (MVP)
 
-A simple yet powerful quiz application built with **Java + Spring Boot**, designed for quick deployment and learning.
-
----
-
-## 🚀 What We’ll Build
-
-A lightweight quiz platform where users can:
-
-- 🧍‍♂️ Take quizzes (no login required — keep it simple!)
-- 🧠 Answer multiple-choice questions
-- 📊 See their final score after completing the quiz
-
+A simple yet powerful quiz application built with **Java + Spring Boot**
 ---
 
 ## 👤 Users
@@ -52,28 +41,8 @@ Each question contains:
 |-----------|------------------------------|
 | Backend   | Java + Spring Boot           |
 | Database  | H2 (in-memory for dev/test)  |
-| Testing   | Postman or Swagger UI        |
-| Frontend (optional) | HTML/Thymeleaf or React |
+| Testing   | Postman        |
 
----
 
-## ⚙️ VS Code Setup (Java 21)
 
-If you’re using **VS Code**, follow these steps to configure Java 21:
-
-1. Open your Spring Boot project in VS Code.
-2. Create a folder named `.vscode` if it doesn’t exist.
-3. Inside `.vscode`, create a file named `settings.json`.
-4. Add the following (adjust your Java path as needed):
-
-``json
-{
-  "java.configuration.runtimes": [
-    {
-      "name": "JavaSE-21",
-      "path": "C:\\Program Files\\Java\\jdk-21",
-      "default": true
-    }
-  ]
-}
 
